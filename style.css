@@ -3,14 +3,21 @@ body {
   margin: 0;
 }
 .titulo {
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ffbd54;
-  flex-wrap: wrap;
+  gap: 15px;
+  flex-direction: column;
 }
 
 .logo {
   height: 100px;
   width: 100px;
+  display: flex;
+  flex-direction: start;
+}
+.nav {
+  color: aqua;
 }
