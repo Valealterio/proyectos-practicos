@@ -1,13 +1,15 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: cursive;
+  background-color: #5c5552;
 }
 .titulo {
   height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffbd54;
+  background-color: #decbb7;
   gap: 15px;
   flex-direction: column;
 }
@@ -15,9 +17,30 @@ body {
 .logo {
   height: 100px;
   width: 100px;
-  display: flex;
-  flex-direction: start;
 }
-.nav {
-  color: aqua;
+.navbar {
+  background-color: #5c5552;
+  padding: 5px;
+}
+.navbar a {
+  color: #decbb7;
+  margin: 10px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.navbar a:hover {
+  color: #f7f0f5;
+  font-weight: bold;
+}
+
+.asd {
+  display: flex;
+  padding: 20px;
+  margin: 50px 150px;
+  border: solid;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #decbb7;
 }
