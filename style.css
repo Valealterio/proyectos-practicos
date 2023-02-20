@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbd54;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
