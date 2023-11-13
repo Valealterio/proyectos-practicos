@@ -1,0 +1,41 @@
+body {
+    justify-content: center;
+    
+}
+#primer-capa{
+    display: flex;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0%;
+    left: 30%;
+    align-items: center;
+    justify-content: center;
+}
+#segunda-capa {
+    display: flex;
+    background-color: #F2BD99;
+    position: absolute;
+    left: 0%;
+    right: 70%;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#tercer-capa {
+    background-color: #E8CFC1;
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width: 100%;
+}
+
+#cuarta-capa{
+    background-color: #A77458;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+div.primer-ca
