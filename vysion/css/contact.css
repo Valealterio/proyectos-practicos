@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+.contactanos {
+  display: flex;
+  flex-direction: row;
+}
+
+div.contactanos {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+  padding: 1em;
+  width: 40vw;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50vh;
+  padding: 2rem;
+}
+
+.form_container {
+  width: 100%;
+  display: grid;
+  gap: 0.2em;
+  grid-auto-columns: 100%;
+}
+
+.form_input {
+  font-family: inherit;
+}
+
+.form_title {
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem;
+}

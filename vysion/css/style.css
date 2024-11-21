@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  background-color: #e0e0db;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", serif;
+}
+nav {
+  height: 4rem;
+  background-color: #e0e0db;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  font-size: large;
+  font-family: "Space Grotesk", serif;
+  color: #253551;
+}
+
+.botonPrincipal {
+  font-family: "Space Grotesk", serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2em 2em;
+  background-color: #253551;
+  border-radius: 4rem;
+  color: #ffffff;
+}
+
+.boton_secundario {
+  font-family: "Space Grotesk", serif;
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 1.2em 2em;
+  background-color: #e0e0db;
+  border-radius: 4rem;
+  color: #253551;
+}

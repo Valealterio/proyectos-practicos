@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+.presentaTuMarca {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  background: url(/src/VySion.png);
+  background-size: cover;
+  background-position: center;
+  margin: 3rem;
+  padding: 1em;
+}
+
+.productosDestacados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.productosDestacados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img.productosDestacados {
+  height: 10rem;
+  width: 10rem;
+  margin: 1rem;
+  border: solid #2a2829;
+  border-radius: 5rem;
+}
+
+.masInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+img.masInfo {
+  height: 25rem;
+  width: 20rem;
+}
+
+div.masInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
