@@ -2,7 +2,7 @@
 
 .presentaTuMarca {
   width: 80vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,6 +48,9 @@ img.productosDestacados {
 img.masInfo {
   height: 25rem;
   width: 20rem;
+  border: solid #2a2829;
+  padding: 0;
+  border-radius: 0px 4rem;
 }
 
 div.masInfo {

@@ -3,6 +3,7 @@
 .contactanos {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 div.contactanos {
