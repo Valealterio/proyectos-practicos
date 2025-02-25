@@ -40,6 +40,12 @@ a:hover {
   color: #ffffff;
 }
 
+.botonPrincipal:hover {
+  background-color: #e0e0db;
+  color: #253551;
+  box-shadow: 5px 5px 10px #253551;
+}
+
 .boton_secundario {
   font-family: "Space Grotesk", serif;
   font-style: normal;
@@ -50,3 +56,10 @@ a:hover {
   border-radius: 4rem;
   color: #253551;
 }
+
+.boton_secundario:hover{
+  background-color: #253551;
+  color: #e0e0db;
+  box-shadow: 5px 5px 10px #253551;
+}
+

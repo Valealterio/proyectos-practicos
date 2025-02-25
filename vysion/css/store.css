@@ -12,8 +12,6 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: ;
-  width: ;
   margin: 1rem;
   padding: 1rem;
   
@@ -32,7 +30,7 @@ img.producto {
   padding: 5px;
 }
 
-h2.producto {
+h3.producto {
   margin: 1px;
   padding: 1px;
 }

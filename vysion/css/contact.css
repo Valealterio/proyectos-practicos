@@ -5,6 +5,12 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+img.contactanos{
+  height: 40vh;
+  width: 30vw;
+  margin: 1rem;
+  border-radius: 1rem;
+}
 
 div.contactanos {
   display: flex;
